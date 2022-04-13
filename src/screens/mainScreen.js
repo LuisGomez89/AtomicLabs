@@ -8,7 +8,7 @@ import { TouchableOpacity } from 'react-native';
 import {KnowMoreButton} from '../helpers/Buttons/KnowMoreButton/KnowMoreButton';
 import CustomButton from '../helpers/Buttons/CustomButton/CustomButton';
 import RightArmTitle from '../components/Titles/RightArm';
-
+import { PrincipalCards } from '../components/Cards/PrincipalCards';
 
 export default function MainScreen() {
   return (
@@ -16,10 +16,12 @@ export default function MainScreen() {
       <ImageBackground
         source={require('../assets/PaqueteAtomic/MaskGroup1.png')}
         resizeMode="cover"
-        style={{flex: -50, marginLeft: -10, marginTop: -60}}>
+        style={{flex: 1, marginLeft: -10, marginTop: -60}}>
         <SafeAreaView>
           <AtomicLogo />
-          <PotencialTitle />
+        
+            <PotencialTitle />
+      
           <KnowMoreButton />
 
           <CustomImage
@@ -28,6 +30,7 @@ export default function MainScreen() {
           />
           <CustomButton />
           <RightArmTitle />
+          <PrincipalCards />
         </SafeAreaView>
       </ImageBackground>
     </Container>   
