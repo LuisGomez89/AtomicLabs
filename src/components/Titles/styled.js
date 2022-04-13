@@ -8,8 +8,7 @@ import theme from '../../themes/lights'
   `
  export const TitleText = styled.Text`
  color: ${props => props.color || theme.color.secondary};
-
- font-size: ${props => props.size || '50px'};
+ font-size: ${props => props.size || '30px'};
  font-weight: ${props => props.weight || 'bold'};
  text-align: ${props => props.align || 'center'};
  font-family:  ${props => props.family || 'mono space'} ;
