@@ -54,20 +54,6 @@ const TriggerValidation = (text, error, validation) => {
   }
 }
 
-const ShowUnshowEye = ({ visible, setVisible, style }) => {
-  return (
-    <TouchableOpacity style={style}
-      onPress={() => {
-        setVisible(!visible)
-      }}>
-      <Icon
-        name={visible ? 'eye-off' : 'eye'}
-        size={30}
-        color={theme.color.primary2}
-      />
-    </TouchableOpacity>
-  )
-}
 
 const CustomInput = ({ height, type, title, label, setValue, setOk, validation, placeholder }) => {
   const error = useRef(initError())

@@ -4,7 +4,6 @@ import {SafeAreaView} from 'react-native-safe-area-context';
 import {Container, CustomImage} from './styled';
 import AtomicLogo from '../components/Logo/AtomicLogo';
 import PotencialTitle from '../components/Titles/Potencial';
-import {TouchableOpacity} from 'react-native';
 import {KnowMoreButton} from '../helpers/Buttons/KnowMoreButton/KnowMoreButton';
 import CustomButton from '../helpers/Buttons/CustomButton/CustomButton';
 import RightArmTitle from '../components/Titles/RightArm';

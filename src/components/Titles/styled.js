@@ -19,14 +19,27 @@ height: auto
 
 export const InLineImageAndText = styled.View`
 display: flex;
-flex-direction: row;
-justify-content: ${props => props.justify || 'space-between'};
-margin-bottom: 3%;
-width: ${props => props.width || '70%'};
-margin-right: auto;
-margin-left: auto;
-margin-top: ${props => props.marginTop || '0px'};
+  flex-direction: row;
+  justify-content: ${props => props.justify || 'flex-start'};
+  margin-bottom: 1%;
+  width: ${props => props.width || '80%'};
+  margin-right: auto;
+  margin-left: -20px;
+  margin-top: 5px;
 `
+export const InLineImageAndTextPhone = styled.View`
+display: flex;
+  flex-direction: row;
+  justify-content: ${props => props.justify || 'flex-start'};
+  margin-bottom: 1%;
+  width: ${props => props.width || '80%'};
+  margin-right: auto;
+  margin-left: -50px;
+  margin-top: 5px;
+  margin-bottom: -20px ;
+`
+
+
 export const TitleContainer = styled.View`
 align-items: center;
 padding: 20px 0px 0px 0px;

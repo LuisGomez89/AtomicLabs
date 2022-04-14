@@ -1,21 +1,21 @@
 import React from 'react';
-import {TitleContainer, TitleText, IconImage, InLineImageAndText, KnowText} from './styled';
+import {Text, View} from 'react-native'
+import {TitleContainer, TitleText, IconImage, InLineImageAndText} from './styled';
 import theme from '../../themes/lights';
+import { UpperImages } from '../UpperImages/UpperImages';
 
 export default function KnowYouTitle() {
   return (
     <TitleContainer>
-      
-      <IconImage
-        height={'40px'}
-        width={'60px'}
-        source={require('../../assets/PaqueteAtomic/uno.png')}
-      />
-      <TitleText size={'30px'}>TE QUEREMOS</TitleText>
-      <TitleText  color={theme.color.primary1} size={'30px'}>
-        CONOCER
-      </TitleText>
-     
+      <UpperImages />
+      <InLineImageAndText marginTop={'20px'} >
+      <IconImage 
+       height={'40px'}
+       width={'40px'}
+      source={require('../../assets/PaqueteAtomic/uno.png')}/>
+      <TitleText marginTop={'20px'} size={'30px'}>TE QUEREMOS</TitleText>
+      </InLineImageAndText>
+      <TitleText marginTop={'-15px'} color={theme.color.primary1} size={'30px'}>CONOCER </TitleText>
     </TitleContainer>
   );
 }
