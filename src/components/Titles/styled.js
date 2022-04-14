@@ -16,3 +16,29 @@ import theme from '../../themes/lights'
  margin-bottom: ${props => props.marginBottom || '0%'};
  width: ${props => props.width || 'auto'};
  ` 
+
+export const IconImage = styled.Image`
+height: ${props => props.height || '100px'};
+width: ${props => props.width || '100px'};
+margin-bottom: ${props => props.marginBottom || '15px'} ;
+margin-left: ${props => props.marginLeft || 'auto'};
+margin-top: ${props => props.marginTop || '15px'} ;
+margin-right: ${props => props.marginRight || 'auto'};
+`
+
+export const InLineImageAndText = styled.View`
+  display: flex;
+  flex-direction: row;
+  justify-content: ${props => props.justify || 'space-between'};
+  margin-bottom: 3%;
+  width: ${props => props.width || '70%'};
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: ${props => props.marginTop || '0px'};
+`
+export const KnowText = styled.Text`
+  color:  ${props => props.bgColor || theme.color.secondary};
+  font-size: ${props => props.size || '18px'};
+  font-weight: ${props => props.weight || '400'};
+`
+

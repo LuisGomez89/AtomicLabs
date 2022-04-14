@@ -9,7 +9,7 @@ const Stack = createStackNavigator();
 
 export default function NavigationStack () {
     return (
-        <Stack.Navigator initialRouteName="Main"
+        <Stack.Navigator initialRouteName="KnowYou"
         screenOptions={{headerShown: false}}>
             <Stack.Screen name="Main" component={MainScreen} />
             <Stack.Screen name="KnowYou" component={WantToKnowYou} />

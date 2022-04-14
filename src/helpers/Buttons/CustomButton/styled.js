@@ -22,3 +22,14 @@ export const ButtonText = styled.Text`
   margin-bottom: auto;
   font-weight: bold;
 `
+export const SendContainer = styled.View`
+  align-self: center;
+  width: ${props => props.width || '230px'};
+  height: ${props => props.height || '50px'};
+  border: 1px solid black;
+  border-radius: ${props => props.radius || '30px'};
+  background-color: ${props => props.bgColor || theme.color.primary1};
+  margin-top: ${props => props.marginTop || '10%'};
+  margin-bottom: 5%;
+  opacity: ${props => props.opacity || '1'};
+`
