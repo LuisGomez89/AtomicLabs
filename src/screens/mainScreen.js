@@ -22,27 +22,17 @@ export default function MainScreen() {
   const navigation = useNavigation();
   return (
     <Container>
-      <ImageBackground
-        source={require('../assets/PaqueteAtomic/MaskGroup1.png')}
-        resizeMode="cover"
-        style={{flex: 1, marginLeft: -10, marginTop: -60}}>
+      <ImageBackground source={require('../assets/PaqueteAtomic/MaskGroup1.png')}resizeMode="cover"style={{flex: 1, marginLeft: -10, marginTop: -60}}>
         <SafeAreaView>
           <AtomicLogo />
-
           <PotencialTitle />
-
           <KnowMoreButton />
-
-          <CustomImage
-            marginTop={'100px'}
-            source={require('../assets/PaqueteAtomic/astronauta1.png')}
-          />
+          <CustomImage marginTop={'100px'} source={require('../assets/PaqueteAtomic/astronauta1.png')}/>
           <CustomButton onPress={() => navigation.navigate('WantToKnowYou')} />
           <RightArmTitle />
           <PrincipalCards />
           <WorkWithUs />
           <TeamImage />
-
           <CustomButton onPress={() => navigation.navigate('WantToKnowYou')} />
           <OurTeam />
           <RamonGomez />

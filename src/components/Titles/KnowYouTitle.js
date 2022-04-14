@@ -2,7 +2,7 @@ import React from 'react';
 import {TitleContainer, TitleText, IconImage, InLineImageAndText, KnowText} from './styled';
 import theme from '../../themes/lights';
 
-export default function KnowYou() {
+export default function KnowYouTitle() {
   return (
     <TitleContainer>
       

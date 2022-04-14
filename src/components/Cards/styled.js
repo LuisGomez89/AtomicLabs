@@ -60,7 +60,7 @@ export const MemberImage = styled.Image`
 export const MemberContainer = styled.View`
    width: 90%;
   height: auto;
-  margin-left: auto;
+  margin-left: 26px;
   margin-right: auto;
 `
 export const MemberText = styled.Text`
