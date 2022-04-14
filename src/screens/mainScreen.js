@@ -1,5 +1,5 @@
 import React from 'react';
-import {View, Text, ImageBackground, StyleSheet} from 'react-native';
+import {View, Text, ImageBackground, StyleSheet, TouchableOpacity} from 'react-native';
 import {SafeAreaView} from 'react-native-safe-area-context';
 import {Container, CustomImage} from './styled';
 import AtomicLogo from '../components/Logo/AtomicLogo';
@@ -13,12 +13,12 @@ import {PrincipalCards} from '../components/Cards/Index';
 import {RamonGomez} from '../components/Cards/TeamMemberRamon';
 import {XimenaMejia} from '../components/Cards/TeamMemberXimena';
 import {JaimeDominguez} from '../components/Cards/TeamMemberJaime';
-import {useNavigation} from '@react-navigation/native';
 import TeamImage from '../components/TeamImage/TeamImage';
 import {Footer} from '../components/Footer/Footer';
 
-export default function MainScreen() {
-  const navigation = useNavigation();
+export default function MainScreen({navigation}) {
+
+
   return (
     <Container>
       <ImageBackground source={require('../assets/PaqueteAtomic/MaskGroup1.png')}resizeMode="cover"style={{flex: 1, marginLeft: -10, marginTop: -60}}>

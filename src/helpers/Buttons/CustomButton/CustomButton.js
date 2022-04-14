@@ -3,6 +3,7 @@ import {TouchableOpacity} from 'react-native';
 import theme from '../../../themes/lights';
 import {Container, ButtonText} from './styled';
 
+
 const CustomButton = ({onPress, color, width, height}) => {
   return (
     <TouchableOpacity onPress={onPress}>

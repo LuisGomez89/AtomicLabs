@@ -11,7 +11,7 @@ import {Footer} from '../components/Footer/Footer';
 import { InfoTitle } from '../components/Titles/InfoTitle';
 
 
-export default function CellPhone() {
+export default function CellPhone({navigation}) {
   return (
     <Container>
     <ImageBackground source={require('../assets/PaqueteAtomic/MaskGroup1.png')}resizeMode="cover"style={{flex: 1, marginLeft: -10, marginTop: -50}}>
@@ -22,7 +22,7 @@ export default function CellPhone() {
             text2={'Ingresa tu número a 10 dígitos y te enviaremos un código SMS.'}/>
       <TextCustom>Número de celular</TextCustom>       
       <CustomInput InputText={'Nombre(s)'}placeholder="Ingresa número ej. 3121405004" />
-       <ContinueButton />
+       <ContinueButton  onPress={() => navigation.navigate('FinalScreen')}/>
        <CustomImage marginTop={'-67px'} height={'550px'}width={'100%'}source={require('../assets/PaqueteAtomic/astronauta3.png')}/>
       </SafeAreaView>
   </ImageBackground> 
