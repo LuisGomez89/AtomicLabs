@@ -3,7 +3,6 @@ import { Imagine } from './ImagineCard'
 import { Explore } from './ExploreCard'
 import { Conquer } from './ConquerCard'
 import { CardsContainer } from './styled'
-import { CustomImage } from '../../screens/styled'
 
 export const PrincipalCards = () => {
     return(

@@ -7,7 +7,7 @@ export const Container = styled.View`
   height: ${props => props.height || '60px'};
   border: 1px solid black;
   border-radius: ${props => props.radius || '20px'};
-  background-color: ${props => props.bgColor || 'white'};
+  background-color: ${props => props.bgColor || theme.color.secondary};
   margin-top: ${props => props.marginTop || '10%'};
   margin-bottom: 5%;
   opacity: ${props => props.opacity || '1'};

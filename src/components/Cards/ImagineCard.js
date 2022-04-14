@@ -37,10 +37,10 @@ export const Imagine = () => {
         text1={'Reducción '}
         text2={'de costos TI'}
       />
-      <DotsImgage marginTop={'10%'}>
+      <DotsImgage marginTop={'-50px'}>
         <CustomImage
-          height={'50px'}
-          width={'150px'}
+          height={'28px'}
+          width={'100px'}
           source={require('../../assets/PaqueteAtomic/dots1.png')}
         />
       </DotsImgage>

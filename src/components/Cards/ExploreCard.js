@@ -31,11 +31,11 @@ export const Explore = () => {
   
       <DetailsCard weight1={'700'} text1={'Innovación '}
       />
-      <DotsImgage marginTop={'10%'}>
+    <DotsImgage marginTop={'-15px'}>
         <CustomImage
-          height={'50px'}
-          width={'150px'}
-          source={require('../../assets/PaqueteAtomic/dots1.png')}
+          height={'28px'}
+          width={'100px'}
+          source={require('../../assets/PaqueteAtomic/dots2.png')}
         />
       </DotsImgage>
       </Card>
