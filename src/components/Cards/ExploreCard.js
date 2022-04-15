@@ -1,5 +1,4 @@
 import React from 'react';
-import {View} from 'react-native';
 import {Card, ImageContainer, DotsImgage} from './styled';
 import {CustomImage} from '../../screens/styled';
 import {TitleText} from '../Titles/styled';

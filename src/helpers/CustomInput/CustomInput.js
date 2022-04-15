@@ -1,9 +1,10 @@
 import React, { useRef, useState } from 'react'
-import { Text, View, TextInput, TouchableOpacity } from 'react-native'
-import { LockImage } from './styled'
+import { View, TextInput, TouchableOpacity } from 'react-native'
+import { CustomImage } from '../../screens/styled'
 import { TextCustom } from '../../screens/styled'
 import { StyleSheet } from 'react-native'
 import theme from '../../themes/lights'
+
 
 
 const CustomInput = ({ placeholder, label, handleChange, title, validation }) => {
@@ -16,6 +17,7 @@ const CustomInput = ({ placeholder, label, handleChange, title, validation }) =>
         onChangeText={handleChange}
       />
       {validation ? null : <TextCustom color="red">{label ?? null}</TextCustom>} 
+      
     </View>
   )
 }

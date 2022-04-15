@@ -1,5 +1,4 @@
 import React from 'react';
-import {Text, View} from 'react-native'
 import {TitleContainer, TitleText, IconImage, InLineImageAndText} from './styled';
 import theme from '../../themes/lights';
 import { UpperImages } from '../UpperImages/UpperImages';

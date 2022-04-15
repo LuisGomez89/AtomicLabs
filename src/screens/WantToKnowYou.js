@@ -1,10 +1,9 @@
 import React, {useState} from 'react';
-import {View, Text, ImageBackground, ScrollView} from 'react-native';
+import {ImageBackground} from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context'
 import AtomicLogo from '../components/Logo/AtomicLogo';
-import {Container, CustomImage, TextCustom} from './styled';
+import {Container, CustomImage} from './styled';
 import KnowYouTitle from '../components/Titles/KnowYouTitle';
-import { KnowText } from '../components/Titles/styled';
 import CustomInput from '../helpers/CustomInput/CustomInput';
 import SendButton from '../helpers/Buttons/CustomButton/SendButton'
 import {Footer} from '../components/Footer/Footer';

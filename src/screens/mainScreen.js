@@ -1,5 +1,5 @@
 import React from 'react';
-import {View, Text, ImageBackground, StyleSheet, TouchableOpacity} from 'react-native';
+import { ImageBackground} from 'react-native';
 import {SafeAreaView} from 'react-native-safe-area-context';
 import {Container, CustomImage} from './styled';
 import AtomicLogo from '../components/Logo/AtomicLogo';
@@ -25,7 +25,7 @@ export default function MainScreen({navigation}) {
         <SafeAreaView>
           <AtomicLogo />
           <PotencialTitle />
-          <KnowMoreButton />
+          <KnowMoreButton onPress={() => navigation.navigate('PrincipalCards')}/>
           <CustomImage marginTop={'100px'} source={require('../assets/PaqueteAtomic/astronauta1.png')}/>
           <CustomButton onPress={() => navigation.navigate('WantToKnowYou')} />
           <RightArmTitle />
