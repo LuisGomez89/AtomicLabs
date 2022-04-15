@@ -14,10 +14,10 @@ export const CustomImage = styled.Image`
   border-radius: ${props => props.radius || '0px'};
   `
 export const TextCustom = styled.Text`
-margin-top:-5% ;
+margin-top:5% ;
 font-size: 18px;
 color: ${props => props.color || theme.color.secondary};
 left: 21px;
-margin-bottom: -13px;
+margin-bottom: 13px;
 font-family:  ${props => props.family || 'mono space'} ;
 `;

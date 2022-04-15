@@ -5,7 +5,7 @@ import theme from '../../themes/lights'
 
 export default function PotencialTitle () {
   return (
-    <TitleContainer>
+    <TitleContainer marginTop={'-30px'}>
     <TitleText size={'50px'} >Desarrolla todo</TitleText>
     <TitleText color={theme.color.primary1} size={'50px'}>tu POTENCIAL</TitleText>
     <TitleText size={'45px'}>dentro del equipo</TitleText>

@@ -22,11 +22,19 @@ export const ButtonText = styled.Text`
   margin-bottom: auto;
   font-weight: bold;
 `
+export const ButtonTextB = styled.Text`
+  text-align: center;
+  color: ${props => props.color || theme.color.secondary};
+  font-size: 20px;
+  font-family: 'mono space' ;
+  margin-top: auto;
+  margin-bottom: auto;
+  font-weight: bold;
+`
 export const SendContainer = styled.View`
   align-self: center;
   width: ${props => props.width || '230px'};
   height: ${props => props.height || '50px'};
-  border: 1px solid black;
   border-radius: ${props => props.radius || '30px'};
   background-color: ${props => props.bgColor || theme.color.primary1};
   margin-top: ${props => props.marginTop || '10%'};

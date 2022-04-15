@@ -38,8 +38,6 @@ display: flex;
   margin-top: 5px;
   margin-bottom: -20px ;
 `
-
-
 export const TitleContainer = styled.View`
 align-items: center;
 padding: 20px 0px 0px 0px;
